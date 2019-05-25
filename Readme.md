@@ -17,7 +17,7 @@ Depending on what version of Director is installed your Google plugin directory 
 sudo yum install git
 
 ### Get enhanced Director from Git.
-cd ~
+cd ~   
 git clone https://github.com/purn1mak/ClouderaDirector.git
 
 ## Move jar file to google provider location.
