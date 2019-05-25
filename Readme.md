@@ -19,7 +19,7 @@ git clone https://github.com/purn1mak/ClouderaDirector.git
 
 ## Move jar file to google provider location.
 cd /var/lib/cloudera-director-plugins/google-provider-2.0.3/  
-sudo cp ~/ClouderaDirector/google-provider-2.0.3+shared-vpc-support.jar  
+sudo cp ~/ClouderaDirector/google-provider-2.0.3+shared-vpc-support.jar .   
 sudo mv google-provider-2.0.3.jar ~/.   
 sudo mv google-provider-2.0.3+shared-vpc-support.jar google-provider-2.0.3.jar   
 
