@@ -9,19 +9,22 @@ A plugin author may want to provide an archive file which mirrors this structure
 ## Installing the plugin
 Clone this git project and then move the jar file to the appropriate Director Google plugin location. 
 
-Follow the following steps or DIY.
+Follow the following steps or DIY. 
+Depending on what version of Director is installed your Google plugin directory will have a different version. In this example I am using Director 6.2.1 and the google plugin directory is /var/lib/cloudera-director-plugins/google-provider-2.0.3/
+
 
 ## Install git if its not installed already
 sudo yum install git
 
 ### Get enhanced Director from Git.
+cd ~
 git clone https://github.com/purn1mak/ClouderaDirector.git
 
 ## Move jar file to google provider location.
 cd /var/lib/cloudera-director-plugins/google-provider-2.0.3/  
-sudo cp ~/ClouderaDirector/google-provider-2.0.3+shared-vpc-support.jar .   
+sudo cp ~/ClouderaDirector/google-provider-2.1.0-SNAPSHOT.jar .   
 sudo mv google-provider-2.0.3.jar ~/.   
-sudo mv google-provider-2.0.3+shared-vpc-support.jar google-provider-2.0.3.jar   
+sudo mv google-provider-2.1.0-SNAPSHOT.jar google-provider-2.0.3.jar   
 
 
 ## Stop Director
