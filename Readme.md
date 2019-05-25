@@ -1,6 +1,13 @@
-# Instructions to use Google plugin for Cloudera Director.
+# Instructions to install Google plugin for Cloudera Director.
 
-Clone this git project and then move the jar file to the appropriate Director Google directory.
+Detailed information about plugin installation, and about the plugins that come pre-installed, is part of the Cloudera Director documentation. This section contains only an overview, and concentrates on information of interest to hot patch plugin authors.
+
+Cloudera Director contains a directory for plugins. The user creates a subdirectory for each plugin. This subdirectory contains the plugin jar and an etc directory for additional filesystem-based plugin configuration information. Cloudera Altus Director will create an empty etc directory if it is absent.
+
+A plugin author may want to provide an archive file which mirrors this structure and provides sample or starter configuration files in the nested configuration directory.
+
+## Installing the plugin
+Clone this git project and then move the jar file to the appropriate Director Google plugin location. 
 
 Follow the following steps or DIY.
 
