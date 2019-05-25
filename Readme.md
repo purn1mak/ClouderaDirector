@@ -9,7 +9,7 @@ A plugin author may want to provide an archive file which mirrors this structure
 ## Installing the plugin
 Clone this git project and then move the jar file to the appropriate Director Google plugin location. 
 
-Follow the following steps or DIY. 
+Follow the following steps or DIY.   
 Depending on what version of Director is installed your Google plugin directory will have a different version. In this example I am using Director 6.2.1 and the google plugin directory is /var/lib/cloudera-director-plugins/google-provider-2.0.3/
 
 
