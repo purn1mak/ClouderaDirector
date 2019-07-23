@@ -1,0 +1,6 @@
+[cloudera-altus-director]
+# Packages for Cloudera Altus Director, Version 6.3.0, on RedHat or CentOS 6 x86_64
+name=Cloudera Altus Director
+baseurl=http://archive.cloudera.com/director6/6.3.0/redhat6
+gpgkey=http://archive.cloudera.com/director6/6.3.0/redhat6/RPM-GPG-KEY-cloudera
+gpgcheck = 1
